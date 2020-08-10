@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Calaculator</title>
+	<script>
+	
+	function calculator(){
+		
+		var a=document.getElementById("v1").value;
+		var op=document.getElementById("v2").value;
+		var c=document.getElementById("v3").value;
+		
+		
+		
+		
+		a=parseInt(a);
+		c=parseInt(c);
+		
+		
+		
+		var result;
+		
+		if(op==='+'){result=a+c}
+		else if(op==='-'){result=a-c;}
+		else if(op==='*'){result=a*c;}
+		else if(op==='/'){result=a/c;}
+		else {result='invalid result';}
+	document.getElementById("result").innerHTML=result;
+	}
+	
+	</script>
+</head>
+
+<body>
+<input type="text" id="v1"> &nbsp; <input type="text" id="v2">&nbsp;<input type="text" id="v3"> &nbsp;<button type="button" onClick="calculator()"> calculate</button>&nbsp;result:<span id="result"></span>	
+	
+</body>
+</html>

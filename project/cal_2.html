@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>cal_2</title>
+	<script>
+	
+	var operator;
+		
+	function setoperat(x){
+		operator=x;
+	} 
+	function mmm(){
+		
+		var a=document.getElementById("n1").value;
+		var b=document.getElementById("n2").value;
+		
+		
+		a=parseInt(a)
+		b=parseInt(b)
+		
+		
+		var result;
+		
+		if(operator==='+'){result=a+b;}
+		else if(operator==='-'){result=a-b;}
+		else if(operator==='*'){result=a*b;}
+        else if(operator==='/'){result=a/b;}
+		else{result='invalid'}
+		
+		
+		document.getElementById("re").innerHTML=result;
+	
+	}
+
+	</script>
+
+</head>
+
+<body>
+	
+<input type="number" id="n1">
+	<button onClick="setoperat('+')">+</button>
+	<button  onClick="setoperat('-')">-</button>
+	<button  onClick="setoperat('*')">*</button>
+	<button  onClick="setoperat('/')">/</button>
+<input type="number" id="n2">	
+	<button  onClick="mmm()">calculat</button>
+	Result:<span id="re"></span>
+	
+	
+	
+	
+</body>
+</html>

@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+			height: 100%;
+			background-color: #2E0C0A;
+			font-family: "aladin,aguafina-script,acme,alegreya";
+			margin: 0;
+			font-size: 17px;
+	     	}
+       .marjin{
+			 margin-left: 20px;
+		     margin-right: 20px;
+		     margin-bottom: auto;
+		     margin-top: auto;
+			
+			
+			
+		}
+		
+	 .nav1{
+            padding: 10px 16px;
+            background: #555;
+            color: #f1f1f1;
+             }
+	
+	header{
+			overflow: hidden;
+			margin: auto;
+			width: 100%;
+			
+		  }
+				
+ .bgimg{
+            background-image:url("silent-prayer-4899e6a3-4019-4927-8865-f142d26d6311.jpg");
+            background-color:#2E0C0A;
+            height: 700px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+	        position: relative;
+            font-family: Arial;
+            
+		}
+	
+	
+	
+	
+	
+.content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+	
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.bgimg img {vertical-align: middle;}
+
+	h3 { 
+	       color: yellowgreen;
+	       border: medium;
+		   padding: inherit;
+		}	
+		
+    p,ul,li{
+		  color:wheat
+		  }
+	
+	.aaa{
+	position:	
+
+		}
+
+.saiful{
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+	border-radius: 50%;}	
+	
+	.leftline{
+		position: -webkit-sticky;
+        position: sticky;
+        top: 0;}
+	
+	
+	
+	
+	
+	
+
+.bgtext {
+  position: absolute;
+	top: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
